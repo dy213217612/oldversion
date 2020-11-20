@@ -1,0 +1,27 @@
+/* pages/statistics/statistics.wxss */
+.stat_rt{
+  width: 50%;
+ flex-wrap: wrap;
+  display: flex;
+  height: 240rpx;
+  /* float: left; */
+}
+.num_stat{
+  width: 100%;
+  height: 80rpx;
+  /* margin-top: 10rpx; */
+  text-align: center;
+  margin-top: 90rpx;
+}
+.bill{
+  width: 89%;
+  margin: auto;
+  text-align: center;
+  border-bottom: 1px solid #cccc;
+}
+.hera_stat{
+  width: 100%;
+  height: 1200rpx;
+  display: flex;
+  flex-wrap: wrap;
+}

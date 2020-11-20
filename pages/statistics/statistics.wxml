@@ -1,0 +1,9 @@
+<!--pages/statistics/statistics.wxml-->
+<view class="hera_stat">
+<view class="stat_rt" wx:for="{{list}}" wx:item="{{item}}" wx:key="id">
+  <!-- 数字 -->
+  <view class="num_stat">{{item.pink}}</view>
+  <!-- 文字 -->
+  <view class="bill">{{item.tiele}}</view>
+</view>
+</view>

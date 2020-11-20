@@ -1,0 +1,52 @@
+<form bindsubmit="complete" report-submit="true">
+  <!-- 商品型号 -->
+  <block wx:for="{{spec_arr}}" wx:key="{{index}}">
+    <view style='margin-bottom:20rpx' wx:if="{{item!=0}}" class="good_sy">
+      <view class='cjjjkk'>
+        <view class='left'>
+          <!-- 型号 -->
+          <view class='left_input'>
+            <view class='leftl'>名称:</view>
+            <!-- 型号输入框 -->
+            <view style='position:relative;width:72%' class="aaaf">
+              <input class="shu_inp" name="version{{index}}" placeholder='商品名称' value='{{item.version}}' type="text" style='width:100%' />
+            </view>
+          </view>
+          <view style='height:10rpx'></view>
+<!-- 库存 -->
+          <view class='flex_center'>
+            <view class='leftl'>库存:</view>
+            <input class="shu_inp" name="istock{{index}}" placeholder='0表示不做限制' value="{{item.istock}}" type="digit" />
+          </view>
+
+          <view style='height:10rpx'></view>
+ <!-- 价格 -->
+          <view class='flex_right'>
+            <view class='leftl'>价格:</view>
+            <input class="shu_inp" name="ismoney{{index}}" placeholder='商品价格' value='{{item.ismoney}}' type="digit" />
+          </view>
+ 
+        </view>
+        <!-- 删除按钮 -->
+        <view class='right' bindtap='del' id="{{index}}">
+          <image src='https://s1.ax1x.com/2020/11/08/BoA6qs.png' style='width:48rpx;height:48rpx'></image>
+        </view>
+      </view>
+      <!-- 上传图片 -->
+      <!-- <view wx:if="{{item.toggle}}" style='background:#fff;overflow:hidden;padding-right:18rpx'> -->
+        <!--这是一个自定义组件，在本博客小程序图片上传有介绍哦~-->
+        <!-- <uploadpic id="logopic{{index}}" txt="上传商品图片" files="{{item.picurl}}" maxnum="1" minnum="0" title="商品" showdel="1"  ></uploadpic>
+      </view> -->
+    </view>
+  </block>
+  <!-- 添加商品型号 -->
+  <view class='flex align-items-center add' catchtap='add'>
+    <image src="https://s3.ax1x.com/2020/11/12/Bzn2m4.png" style='width:48rpx;height:48rpx;margin-right:20rpx'></image>添加商品型号
+  </view>
+ 
+  <view style='height:120rpx'></view>
+ <!-- 确定按钮 -->
+  <view class='position-fixed'>
+    <button type='primary' form-type='submit'>确定</button>
+  </view>
+</form>

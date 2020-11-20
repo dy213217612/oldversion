@@ -1,0 +1,18 @@
+<!--components/SeverInpus/SeverInpus.wxml-->
+<!--components/btnInputs/btnsInputs.wxml-->
+<view class="ctn"> 
+<!-- 输入框 -->
+<view class="lab_inp">
+  <label class="name_class" name="adada">{{name}}</label>
+  <input class="weui-input"  maxlength="10" bindinput="bindKeyInput" placeholder="{{place}}"/>
+  <text class="explain">{{expla}}</text>
+</view>
+<!-- 输入框结束 -->
+<!-- 解释 -->
+
+<!-- 解释结束 -->
+<!-- 按钮 -->
+
+</view>
+
+<button class="btn_ctn" style="width:80%;margin:50rpx;background:red;height:46px;color:white">提交保存</button>

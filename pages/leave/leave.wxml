@@ -1,0 +1,43 @@
+<!-- <view>
+  <view class="frm">
+    <view class="shop_name" style="margin-bottom: 20px;height:40px;">
+              <view class="name_ho">
+                用户名:
+              </view>
+              <view class="name-vule">
+                <input name="input" placeholder="请输入用户名" bindinput="username"></input>
+            </view>
+    </view>
+    <view class="shop_name" style="margin-bottom: 20px;height:40px;">
+              <view class="name_ho">
+                手机号码:
+              </view>
+              <view class="name-vule">
+                <input name="input" placeholder="请输入手机号码" bindinput="tell"></input>
+              </view>
+           
+    </view>
+    <view class="shop_name" style="margin-bottom: 20px;height:40px;">
+              <view class="name_ho">
+                密码:
+              </view>
+              <view class="name-vule">
+                <input placeholder="设置密码" password="true" bindinput="password"></input>
+              </view>
+    </view>
+    <view class="shop_name" style="margin-bottom: 20px;height:40px;">
+              <view class="name_ho">
+                确认密码:
+              </view>
+              <view class="name-vule">
+                <input placeholder="设置密码" password="true" bindinput="rpassword"></input>
+              </view>
+    </view>
+    <view class="brn_from" style="margin-bottom: 20px;height:40px;">
+
+              <view class="ui-col-content align-center valign-middle">
+                <button type="primary" bindtap="submitHandler">注册</button>
+              </view> 
+    </view>
+  </view>
+</view> -->

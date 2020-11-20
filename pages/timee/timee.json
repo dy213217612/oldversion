@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "SeverInpus":"../../components/SeverInpus/SeverInpus"
+  },
+  "navigationBarTitleText": "修改营业时间"
+}

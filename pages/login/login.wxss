@@ -1,0 +1,137 @@
+page{
+  height: 100%;
+  }
+   
+  .container {
+    width: 100%;
+  height: 100%; 
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #fff
+  }
+   
+  .userinfo {
+  padding: 100rpx 0;
+  align-items: center;
+  }
+  .userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+  }
+   
+  /*表单内容*/
+   
+  .login-from {
+    margin-top: 60rpx;
+    flex: auto;
+    height: 100%;
+  }
+   
+  .inputView {
+    background-color: #fff;
+    line-height: 44px;
+    border: 1px solid #cccc;
+    margin-top: 11rpx;
+  }
+   
+  /*输入框*/
+   
+  .nameImage, .keyImage {
+   
+  margin-left: 10px;
+   
+  width: 15px;
+   
+  height: 15px
+   
+  }
+   
+  .loginLab {
+   
+  margin: 15px 15px 15px 40px;
+   
+  color: #545454;
+   
+  font-size: 14px
+   
+  }
+   
+  .inputText {
+   
+  flex: block;
+   
+  float: right;
+   
+  text-align: center;
+   
+  margin-right: 100px;
+   
+  margin-top: 11px;
+   
+  color: #cccccc;
+   
+  font-size: 14px
+   
+  }
+   
+  .line {
+   
+  width: 100%;
+   
+  height: 1px;
+   
+  background-color: #cccccc;
+   
+  margin-top: 1px;
+   
+  }
+   
+  /*按钮*/
+   
+  .loginBtnView {
+   
+  width: 100%;
+   
+  height: auto;
+   
+  background-color: #fff;
+   
+  margin-top: 0px;
+   
+  margin-bottom: 0px;
+   
+  padding-bottom: 0px;
+   
+  }
+   
+  .loginBtn {
+   
+  width: 80%;
+   
+  margin-top: 35px;
+   
+  }
+  .hoppend{
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    margin-top: 58rpx;
+    margin-left: 50rpx;
+    height: 100rpx;
+    font-size: 28rpx;
+
+  }
+  .navi_cpn{
+    float: right;
+    margin-left: 17rpx;
+    color: red;
+  }
+  .register{
+    margin-left: 218rpx;
+    margin-top: 2rpx;
+    color: red;
+  }

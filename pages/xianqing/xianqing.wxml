@@ -1,0 +1,29 @@
+<!--pages/xianqing/xianqing.wxml-->
+<view class="keyi_j">
+  <!-- 可提现金额 -->
+  <view class="tx_j" wx:for="{{jeli}}" wx:key="id">
+    <view class="tixiand">可提现金额</view>
+    <view class="nu_ds">{{item.num}}元</view>
+    <button style="width: 72px;height: 28px;font-size: 11px;float: right;margin-right:10rpx">提现</button>
+  </view>
+  <!-- 可收入 -->
+  <view  class="shouyu">
+    <view class="left_d" wx:key="id" wx:for="{{cali}}" > 
+       <view class="hji">总收入（元）</view>
+       <view class="tie">{{item.num}}</view>
+    </view>
+  
+    <view class="left_d" wx:for="{{lkis}}" wx:key="id"> 
+       <view class="hji">支付佣金（元）</view>
+       <view class="tie">{{item.num}}</view>
+    </view>
+  </view>
+  <!-- 历史流水 -->
+  <!-- <view class="lsjs">
+    <view class="fasfa">近10条流水账</view>
+    <navigator url="../lsls/lsls">
+      <view class="ssda">历史流水</view>
+    </navigator>
+    
+  </view> -->
+</view>

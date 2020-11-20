@@ -1,0 +1,36 @@
+{
+  "pages": [
+    
+    "pages/login/login",
+    "pages/index/index",
+    "pages/mobile/mobile",
+    "pages/compact/compact",
+    "pages/mout/mout",
+    "pages/keep/keep",
+    "pages/statistics/statistics",
+    "pages/leave/leave",
+    "pages/name/name",
+    "pages/timee/timee",
+    "pages/hoppen/hoppen",
+    "pages/dianpu/dianpu",
+    "pages/jiage/jiage",
+    "components/btnInputs/btnsInputs",
+    "pages/notice/notice",
+    "pages/intro/intro",
+    "pages/affiche/affiche",
+    "pages/synopsis/synopsis",
+    "pages/shanpin/shanpin",  
+    "pages/xianqing/xianqing",
+    "pages/cuisine/cuisine",
+    
+    "components/SeverInpus/SeverInpus"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fc2508",
+    "navigationBarTitleText": "登录",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

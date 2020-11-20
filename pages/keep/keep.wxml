@@ -1,0 +1,34 @@
+<!--pages/keep/keep.wxml-->
+<view class="cenot">
+  <!-- 头像 -->
+  <view class="hipp" wx:for="{{srtk}}" wx:key="id">
+    <image src="{{item.src}}"></image>
+    <view class="akas">{{item.name}}</view>
+    <image style="float:right" src="https://s1.ax1x.com/2020/11/06/BhpOhR.png" class="roww"></image>
+  </view>
+  <!-- 营业状态 -->
+  <view class="state">
+    <view class="page">营业状态</view>
+    <radio-group name="radio" class="radios">
+          <label><radio value="radio1"/>营业中</label>
+          <label><radio class="ada" value="radio2"/>休息中</label>
+        </radio-group>
+  </view>
+  <!-- 列表 -->
+  <view class="shipp">
+  <navigator url="{{item.url}}" class="Lists" wx:for="{{arr}}" 
+ wx:key="id">
+    <view class="lsie">{{item.name}}</view>
+     <view class="asld">{{item.title}}</view>
+     <image src="https://s1.ax1x.com/2020/11/06/BhpOhR.png"></image>
+  </navigator></view>
+  <!-- 公告 -->
+  <view class="affa">
+<navigator class="service" wx:for="{{girt}}" 
+ wx:key="id" url="{{item.url}}" >
+ <view class="lsie">{{item.name}}</view>
+ <view class="asld">{{item.title}}</view>
+ <image src="https://s1.ax1x.com/2020/11/06/BhpOhR.png"></image>
+</navigator>
+</view>
+</view>

@@ -1,0 +1,24 @@
+<!--pages/cuisine/cuisine.wxml-->
+
+<!--pages/cuisine/cuisine.wxml-->
+<view class="price-detail" wx:for="{{addPrice}}" wx:key="">
+  <!-- 菜品分类 -->
+      <view class="price-detail-descp">
+      <navigator url="../index/index">
+        <view class="descp-text" >菜品分类</view>
+      </navigator>
+        <view class="descp-value">
+          <input type="text" name="Price_Name" class="desc-input"  data-index="{{index}}" data-tag="Price_Name" bindblur='setInputValue' placeholder='请输入分类名称' value=""/>
+        </view>
+        <image src="https://s1.ax1x.com/2020/11/08/BoA6qs.png" class="jianhao" data-index="{{index}}" bindtap='deletePrice'></image>
+      </view>
+    <!-- 序号 -->
+      <view class="price-detail-num">
+        <view class="descp-text">序号</view>
+        <view class="descp-value">
+          <input type="text" name="NumLimit" class="desc-input"  placeholder='请输入序号' data-tag="NumLimit" data-index="{{index}}" bindblur='setInputValue' value=""/>
+        </view>
+      </view>
+    </view>
+    <!-- 添加分类 -->
+    <view class="addButton" data-index="{{index}}" bindtap='addNewPrice'>+添加分类</view>

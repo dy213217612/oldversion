@@ -1,0 +1,50 @@
+<!--pages/mobile/mobile.wxml-->
+<view class="content">
+<!-- 头部 -->
+<view class="top_day">
+  <!-- 今日营销统计 -->
+<view class="header">
+<text class="iconfont icon-tongji" style='color:white;font-size:30rpx;'>今日营销统计</text>
+</view>
+<!-- 结尾 -->
+<!-- 营业额 -->
+<view class="cent">
+  <view class="left_cent" wx:for="{{lisss}}" wx:key="id">
+    <view class="fie">{{item.num}}</view>
+    <view class="awww">营业额</view>
+  </view>
+  <view class="cenhr"></view>
+
+  <view class="right_cent" wx:for="{{litss}}" wx:key="id">
+  <view class="rigth_fie">{{item.num}}</view>
+   <view class="right_awww">订单数</view> 
+  </view>
+</view>
+<!-- 结尾 -->
+<!-- 分割线 -->
+<view class="hr"></view>
+<!-- 账户余额 -->
+<view class="balance">
+  <view class="account" wx:for="{{akjs}}" wx:key="id">
+    <view class="account_top">账户余额</view>
+    <view class="account_btonn">{{item.num}}</view>
+  </view>
+  <!--按钮  -->
+<view class="btnn">
+<navigator url="../xianqing/xianqing">
+  <button style="font-size:11px;width:95px;height:34px;color:white;background:pink">立即结算</button>
+  </navigator>
+</view>
+</view>
+<!-- 结尾 -->
+</view>
+<!-- 列表部分 -->
+<view class="index_cate">
+<navigator url="{{item.url}}" wx:for="{{itemlist}}" wx:key="id" class="nav_cate">
+       <image src="{{item.src}}"  wx:key="id" class="cate_img"></image> 
+   <view>
+    {{item.catname}}
+  </view>
+</navigator>
+</view>
+</view>

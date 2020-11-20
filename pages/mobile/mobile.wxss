@@ -1,0 +1,112 @@
+/* pages/mobile/mobile.wxss */
+@import "../../lib/style/iconfont.wxss";
+.content{
+  width: 100%;
+}
+.top_day{
+  background: red;
+  color: white;
+  width: 100%;
+}
+.header{
+  width: 90%;
+  margin: auto;
+  padding-top: 74rpx;
+  height: 110rpx;
+  display: flex;
+}
+.cent{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  height:60rpx ;
+  height: 160rpx;
+}
+.left_cent{
+  flex-direction: column;
+  width: 40%;
+}
+.fie{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.awww{
+  width: 90%;
+  margin: 35rpx auto;
+  text-align: center;
+}
+.cenhr{
+  border: 1rpx solid white;
+  opacity: 0.6;
+  height: 70%;
+  margin: 0 auto;
+}
+.right_cent{
+  flex-direction: column;
+  width: 40%;
+}
+.rigth_fie{
+  width: 40%;
+  margin: auto;
+  text-align: center;
+}
+.right_awww{
+  width: 40%;
+  margin: 35rpx auto;
+  text-align: center;
+}
+.hr{
+  border: 1rpx solid white;
+  opacity: 0.6;
+  width: 90%;
+  margin: 0 auto;
+}
+.balance{
+  width: 100%;
+  height: 180rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.account{
+  width: 60%;
+  height: 66px;
+  float: left;
+  transform-style: flat;
+  /* display: flex; */
+  flex-direction: column;
+}
+.account_top{
+  width: 60%;
+  margin: 12px auto;
+}
+.account_btonn{
+  width: 60%;
+  margin: auto;
+}
+.btnn{
+  margin-top: 37rpx;
+  /* display: block; */
+  width: 30%;
+  /* right: 30px; */
+  margin-right: 43rpx;
+  float: right;
+}
+.index_cate{
+  width: 100%;
+  height: 562rpx;
+  flex-direction: row;
+  background: #f3eaea;
+  border-bottom: 1px solid #f1dcdc;
+}
+.nav_cate{
+  float: left;
+  width: 20%;
+  padding: 50rpx;
+}
+.cate_img{
+  width: 100rpx;
+  height: 110rpx;
+}

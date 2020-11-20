@@ -1,0 +1,2 @@
+<!--pages/hoppen/hoppen.wxml-->
+<SeverInpus name="订餐电话" place="格式说明：11位数" expla="注：请填写方便联系的电话"></SeverInpus>

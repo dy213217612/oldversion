@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "SeverInpus":"../../components/SeverInpus/SeverInpus"
+  },
+  "navigationBarTitleText": "修改订餐电话"
+}

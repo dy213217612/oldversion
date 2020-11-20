@@ -1,0 +1,2 @@
+<!--pages/timee/timee.wxml-->
+<SeverInpus name="营业时间" place="格式说明：08:00-12:00,13:00" expla="格式说明：08:00-12:00,13:00"></SeverInpus>

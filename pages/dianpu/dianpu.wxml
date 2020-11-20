@@ -1,0 +1,2 @@
+<!--pages/dianpu/dianpu.wxml-->
+<SeverInpus name="店铺地址" place="江西省南昌市" expla="注：请填写店铺地址"></SeverInpus>

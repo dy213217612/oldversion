@@ -1,0 +1,90 @@
+/* pages/keep/keep.wxss */
+.cenot{
+  width: 100%;
+  height: 1200rpx;
+  display: flex;
+  flex-direction: column;
+}
+.hipp{
+  width: 100%;
+  height: 120rpx;
+  background: #f5eeee;
+  display: flex;
+}
+.hipp image{
+  width: 90rpx;
+  height: 70rpx;
+  margin-top: 23rpx;
+  margin-left: 31rpx;
+}
+.akas{
+  width: 70%;
+  height: 60rpx;
+  margin-top: 29rpx;
+  margin-left: 56rpx;
+}
+.asld{
+  width: 57%;
+  text-align: center;
+  font-size: 27rpx;
+  color: #ccc;
+  margin-top: 49rpx;
+}
+.state{
+  width: 100%;
+  float: left;
+  display: flex;
+  background: #f5eeee;
+  margin-top: 60rpx;
+  height: 100rpx;
+}
+.page{
+  height: 60rpx;
+  margin-top: 25rpx;
+  margin-left: 49rpx;
+}
+.radios{
+  height: 60rpx;
+  margin-top: 25rpx;
+  margin-left: 49rpx;
+}
+.ada{
+  margin-left: 45rpx;
+}
+.shipp{
+  margin-top: 75rpx;
+}
+.Lists{
+  display: flex;
+  width: 100%;
+  background: #f5eeee;
+  border-bottom: 1px solid #ccc;
+}
+.lsie{
+  width: 30%;
+  padding: 55rpx 15rpx 7px 28px;
+}
+.Lists image{
+  width: 30rpx;
+  height: 30rpx;
+  margin-top: 57rpx;
+}
+.affa{
+  margin-top: 20rpx;
+}
+.service{
+  display: flex;
+  width: 100%;
+  background: #f5eeee;
+  border-bottom: 1px solid #ccc;
+}
+.service image{
+  width: 30rpx;
+  height: 30rpx;
+  margin-top: 57rpx;
+}
+.hipp .roww{
+  width: 30rpx;
+  height: 30rpx;
+  margin-top: 57rpx;
+}

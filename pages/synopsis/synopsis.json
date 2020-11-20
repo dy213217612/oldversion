@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "SeverInpus":"../../components/SeverInpus/SeverInpus"
+  },
+  "navigationBarTitleText": "修改店铺公告"
+}
